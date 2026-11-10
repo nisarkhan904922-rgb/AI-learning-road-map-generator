@@ -10,7 +10,7 @@ from groq import Groq
 
 load_dotenv()  # loads GROQ_API_KEY from a local .env file if present
 
-MODEL = "openai/gpt-oss-20b",
+MODEL = "openai/gpt-oss-20b"
 
 SYSTEM_PROMPT = """You are an expert learning coach and curriculum designer.
 Create realistic, practical, well-structured learning roadmaps.
